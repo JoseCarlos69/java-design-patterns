@@ -3,16 +3,13 @@
 [![Gradle CI](https://github.com/gazbert/java-design-patterns/actions/workflows/gradle.yml/badge.svg?branch=master)](https://github.com/gazbert/java-design-patterns/actions/workflows/gradle.yml) 
 [![Maven CI](https://github.com/gazbert/java-design-patterns/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/gazbert/java-design-patterns/actions/workflows/maven.yml)
 
-A cookbook of commonly used Java design patterns based on examples from: 
+Um livro de receitas de padrões de projeto comumente utilizados em Java, baseados em exemplos de:
 
 * "Design Patterns: Elements of Reusable Object-Oriented Software" - Gamma et al
 * "Head First Design Patterns" - Freeman et al
 * "Java Design Pattern Essentials" - Tony Brevis
 
-Each pattern is contained in its own package. The Javadoc will provide more details and the unit tests 
-will demonstrate how to use it.
-
-Any comments/bugs/better ways of doing things, send 'em my way.
+Cada padrão está contido em seu próprio pacote. O Javadoc fornecerá mais detalhes e os testes unitários demonstrarão como usá-lo.
 
 ## Design Patterns
 
@@ -41,28 +38,22 @@ Any comments/bugs/better ways of doing things, send 'em my way.
 1. Facade
 
 ## Build Guide
-You'll need JDK 17+ installed on your dev box.
+Você precisará do JDK 17+ instalado em sua máquina de desenvolvimento.
 
 ### Gradle
-You can use the included Gradle wrapper to build the project and pull down the dependencies:
+Você pode usar o wrapper Gradle incluído para construir o projeto e baixar as dependências:
 
 ```bash
 ./gradlew build
 ```
 
-The Javadoc can be found in the `<project-root>/build/docs/javadoc` folder after you execute the build.
+O Javadoc pode ser encontrado na pasta `<project-root>/build/docs/javadoc` após você executar a construção.
 
 ### Maven
-You can use the included Maven wrapper to build the project and pull down the dependencies:
+Você pode usar o wrapper Maven incluído para construir o projeto e baixar as dependências:
 
 ```bash
 ./mvnw clean install
 ```
 
-The Javadoc can be found in the `<project-root>/target/apidocs` folder after you execute the build.
-
-## Contributing
-Issues and new features are managed using the project [Issue Tracker](https://github.com/gazbert/java-design-patterns/issues) -
-submit bugs here.
-
-You are welcome to take on new features or fix bugs! See [here](CONTRIBUTING.md) for how to get involved.
+O Javadoc pode ser encontrado na pasta `<project-root>/target/apidocs` após você executar a construção.
